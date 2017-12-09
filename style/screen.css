@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  height: 100%;
+}
+
+hmtl {
+  display: block;
+  height: 100%;
+}
+
+.page {
+  margin: 20px 0
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
+  height: 100%
+}
+
+.content-wrapper {
+  float: left;
+  width: 100%;
+}
+
+.content {
+  margin-right: 320px;
+  clear: both;
+  overflow: auto;
+  background: #fff;
+  background: rgba(95, 95, 95, 0.4);
+  min-height: 600px;
+}
+
+.sidebar {
+  position: relative;
+  width: 320px;
+  margin-left: -320px;
+  height: 200px;
+  float: right;
+  overflow: hidden;
+  background: #2c3e50;
+  background: rgba(44,62,80, 0.4);
+  color: #eee;
+}
+
+a{
+  display: block;
+  text-align:center;
+  margin: 10px auto;
+  width: 100%;
+  color: #2c3e50;
+}
+
+/* Opmaak */
+
+h3#apod_title{
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+p#apod_explaination{
+  font-size: 1em;
+  margin: 1em 2em;
+}
+
+p#copyright{
+  margin: 0.5em 0 1em 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-right: 0;
+  }
+}
