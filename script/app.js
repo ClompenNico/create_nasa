@@ -35,9 +35,13 @@ function nextPhoto()
     x = x + 1;
 }
 
+function ShowLogin(y) {
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+}
 
 // ------------ JAVASCRIPT VAN NASA VOOR DE AFBEELDING -------------------
 function showPicture(value) {
+    // Toggle voor formulier
     var valueSlice = value.toISOString().slice(0,10);
     var url = "https://api.nasa.gov/planetary/apod?api_key="+key+"&date="+valueSlice;
     $.ajax({
@@ -87,8 +91,4 @@ function showPicture(value) {
 
     });
     dateGlobal = value;
-
-    $('.message a').click(function(){
-        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-     });
 }

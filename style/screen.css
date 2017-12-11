@@ -78,11 +78,12 @@ p#apod_explaination{
 img#apod_img_id{
   max-width: 90%;
   max-height: 50%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 iframe#apod_vid_id{
   max-width: 90%;
+  margin: 0 auto;
 }
 
 p#copyright{
@@ -99,9 +100,9 @@ button{
 
 button.next, button.prev{
   color: #fff;
-	cursor: pointer;
-	position: relative;
-	border: 2px solid #fff;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid #fff;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
   margin: 20px 5px 10px 5px;
   font-size: 1.2em;
@@ -118,48 +119,48 @@ button.next span, button.prev span{
 
 button.next:hover, button.prev:hover {
   color: #000 !important;
-	background-color: white;
-	text-shadow: nthree;
+    background-color: white;
+    text-shadow: nthree;
 }
 
 button.next:hover:before {
   left: 0%;
-	right: auto;
-	width: 100%;
+    right: auto;
+    width: 100%;
 }
 
 button.prev:hover:before {
   right: 0%;
-	left: auto;
-	width: 100%;
+    left: auto;
+    width: 100%;
 }
 
 button.next:before {
   display: block;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	height: 100%;
-	width: 0px;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: #fff;
-	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: #fff;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
 }
 
 button.prev:before{
   display: block;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 0px;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: #fff;
-	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: #fff;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
 }
 
 /* Formulier */
@@ -169,15 +170,15 @@ button.prev:before{
 .login-page {
   width: 90%;
   padding: 0 0;
-  margin: auto;
+  margin: 0 auto;
 }
 .form {
   position: relative;
   z-index: 1;
   background: transparent;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0;
   text-align: center;
 }
 .form input {
@@ -193,9 +194,9 @@ button.prev:before{
 }
 .form button {
   color: #fff;
-	cursor: pointer;
-	position: relative;
-	border: 2px solid #fff;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid #fff;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
   font-size: 1.2em;
   font-style: bold;
@@ -288,9 +289,9 @@ button.prev:before{
     border: 2px solid #fff;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
     margin: 20px 5px 10px 5px;
-    font-size: 2.3em;
+    font-size: 2em;
     font-style: bold;
-    width: 45%;
+    width: 36%;
   }
 
   p#copyright{
@@ -298,13 +299,14 @@ button.prev:before{
   }
 
   .login-page {
-    width: 90%;
+    width: 75%;
     padding: 0 0;
     margin: auto;
   }
 
   .form{
    align-content: center;
+   width: 100%;
   }
   
   .form input {
@@ -312,17 +314,17 @@ button.prev:before{
   }
 
   .form button {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   a {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
