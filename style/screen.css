@@ -257,6 +257,7 @@ button.prev:before{
 @media only screen and (max-width: 1090px) {
   .sidebar {
     /* display: none; */
+    padding-top: 20px;
     margin-right: 0px;
     clear: both;
     overflow: auto;
@@ -301,7 +302,7 @@ button.prev:before{
     margin: 20px 5px 10px 5px;
     font-size: 2em;
     font-style: bold;
-    width: 36%;
+    width: 36.7%;
   }
 
   p#copyright{
@@ -321,10 +322,12 @@ button.prev:before{
   
   .form input {
     font-size: 2em;
+    margin: 10px 0px;
   }
 
   .form button {
     font-size: 2em;
+    margin: 10px 0px;
   }
 
   a {
@@ -334,7 +337,7 @@ button.prev:before{
   .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
-    font-size: 1.4em;
+    font-size: 2em;
   }
 }
 
