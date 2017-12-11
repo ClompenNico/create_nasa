@@ -3,6 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   height: 100%;
+  min-width: 500px;
 }
 
 hmtl {
@@ -47,7 +48,6 @@ hmtl {
   position: relative;
   width: 320px;
   margin-left: -320px;
-  height: 600px;
   float: right;
   overflow: hidden;
   background: #2c3e50;
@@ -77,6 +77,8 @@ p#apod_explaination{
 
 img#apod_img_id{
   max-width: 90%;
+  max-height: 50%;
+  margin: auto;
 }
 
 iframe#apod_vid_id{
@@ -173,8 +175,8 @@ button.prev:before{
   position: relative;
   z-index: 1;
   background: transparent;
-  max-width: 360px;
-  margin: 0 auto 20px;
+  width: 100%;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
 }
@@ -300,41 +302,27 @@ button.prev:before{
     padding: 0 0;
     margin: auto;
   }
-  .form {
-    position: relative;
-    z-index: 1;
-    background: transparent;
-    width: 100%;
-    margin: 0 auto 20px;
-    padding: 10px;
-    text-align: center;
-  }
-  .form input {
-    font-family: "Roboto", sans-serif;
-    outline: 0;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-  }
 
-  .register-form{
-    width: 100%;
+  .form{
+   align-content: center;
+  }
+  
+  .form input {
+    font-size: 2em;
   }
 
   .form button {
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    border: 2px solid #fff;
-    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
-    font-size: 1.2em;
-    font-style: bold;
-    width: 100%;
+    font-size: 2.5em;
   }
-  
+
+  a {
+    font-size: 1.2em;
+  }
+
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 1.2em;
+  }
 }
 
