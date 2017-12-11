@@ -289,7 +289,7 @@ button.prev:before{
   }
 
   p#apod_explaination{
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   button.next, button.prev{
@@ -334,7 +334,7 @@ button.prev:before{
   .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
-    font-size: 1em;
+    font-size: 1.4em;
   }
 }
 
