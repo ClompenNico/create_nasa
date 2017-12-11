@@ -20,7 +20,6 @@
     <!-- App.js -->
     <script src="script/app.js"></script>
 
-    
     <!-- Space.js -->
     <!-- <script src="script/space.js"></script> -->
 </head>
@@ -57,7 +56,7 @@
                     
                     <p id="apod_explaination"></p>
 
-                    <img id="apod_img_id" width="500px"/>
+                    <img id="apod_img_id"/>
                     <iframe id="apod_vid_id" type="text/html" width="500" height="300" frameborder="0"></iframe>
                     <p id="copyright"></p>
             
@@ -73,8 +72,27 @@
                 <!-- <h2>Page sidebar</h2> -->
                 <!-- <p>&larr; Fixed Width &rarr;</p> -->
                 <div class="buttons">
-                    <button id="prev" value="prev" onclick="prevPhoto()"> Prev</button>
-                    <button id="next" value="next" onclick="nextPhoto()"> Next </button>
+                    <button class="prev" id="prev" value="prev" onclick="prevPhoto()"><span>Previous</span></button>
+                    <button class="next" id="next" value="next" onclick="nextPhoto()"><span>Next</span></button>
+
+                    <div class="login-page">
+                        <div class="form">
+                            <form class="register-form">
+                            <input type="text" placeholder="name"/>
+                            <input type="password" placeholder="password"/>
+                            <input type="text" placeholder="email address"/>
+                            <button>create</button>
+                            <p class="message">Already registered? <a href="#">Sign In</a></p>
+                            </form>
+                            <form class="login-form">
+                            <input type="text" placeholder="username"/>
+                            <input type="password" placeholder="password"/>
+                            <button>login</button>
+                            <p class="message">Not registered? <a href="#">Create an account</a></p>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
                 <br/>
             </div>
