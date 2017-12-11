@@ -254,7 +254,7 @@ button.prev:before{
   color: #EF3B3A;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1090px) {
   .sidebar {
     /* display: none; */
     margin-right: 0px;
