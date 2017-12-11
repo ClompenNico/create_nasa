@@ -1,7 +1,5 @@
 /* ============================================================================================== 
-Nick Mkrtchyan
-https://www.facebook.com/sonick.pk
-http://www.Mkrtchyan.zz.mu
+Sterren op de actergrond
 ================================================================================================= */
 * {
     margin: 0;
@@ -60,24 +58,7 @@ http://www.Mkrtchyan.zz.mu
     to {background-position:-10000px 5000px;}
   }
   
-  @keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-  }
-  @-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-  }
-  @-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-  }
-  @-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
-  }
-  
-  .stars, .twinkling, .clouds {
+  .stars, .twinkling {
   position:absolute;
   top:0;
   left:0;
@@ -108,14 +89,3 @@ http://www.Mkrtchyan.zz.mu
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
   }
-  
-  /* .clouds{
-    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-    z-index:3;
-  
-  -moz-animation:move-clouds-back 200s linear infinite;
-  -ms-animation:move-clouds-back 200s linear infinite;
-  -o-animation:move-clouds-back 200s linear infinite;
-  -webkit-animation:move-clouds-back 200s linear infinite;
-  animation:move-clouds-back 200s linear infinite;
-  } */

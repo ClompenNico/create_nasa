@@ -10,7 +10,7 @@ var url = "https://api.nasa.gov/planetary/apod?api_key=NNKOjkoul8n1CH18TWA9gwngW
 
 //Buttons
 
-var key = "nQGhQm8MtOQ4mTrszAnbt0NbFBZbZbYWmIJRgPxU";
+var key = "n66hQKbxKwYOwiMTOmKzYrh2RNYBr9oRDlxXWssE";
 
 var x = 1;
 
@@ -34,6 +34,8 @@ function nextPhoto()
     showPicture(next);
     x = x + 1;
 }
+
+//Tekst login of create account
 
 function ShowLogin(y) {
         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
