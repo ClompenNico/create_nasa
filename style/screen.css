@@ -284,6 +284,14 @@ button.prev:before{
     max-width: 90%;
   }
 
+  h3#apod_title{
+    font-size: 2.5em;
+  }
+
+  p#apod_explaination{
+    font-size: 1.8em;
+  }
+
   button.next, button.prev{
     color: #fff;
     cursor: pointer;
